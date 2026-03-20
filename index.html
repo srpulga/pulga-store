@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="script.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Bazar do Pulga</title>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary-fixed selection:text-on-secondary-fixed" data-mode="connect">
+
+  <!-- TopAppBar -->
+  <header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(9,29,46,0.06)]">
+    <div class="flex items-center px-6 py-4 max-w-7xl mx-auto justify-center">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-3 h-3 bg-primary-fixed rounded-full"></span>
+        <span class="text-xl font-black text-[#091d2e] uppercase tracking-widest font-headline">Bazar do Pulga</span>
+      </div>
+      <div class="flex items-center gap-4"></div>
+    </div>
+  </header>
+
+  <main class="pt-24">
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden px-6 py-24 md:py-32 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div class="z-10">
+          <span class="inline-block w-3 h-3 bg-primary-fixed rounded-full mb-6"></span>
+          <h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tight text-on-surface mb-8 leading-[1.1]">
+            Bem vindo ao Bazar do Pulga
+          </h1>
+          <p class="text-body-lg text-on-surface-variant max-w-md mb-10 leading-relaxed">
+            Produtos de tecnologia que não uso mais. Tudo testado e funcionando.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Grid Section -->
+    <section class="bg-surface-container-low py-24 px-6">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+          <div>
+            <span class="font-label text-[0.75rem] font-bold tracking-widest text-primary uppercase">
+              Produtos disponíveis
+            </span>
+          </div>
+          <p class="text-on-surface-variant max-w-sm text-right hidden md:block"><br></p>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <!-- Product Card 1 - Amazfit GTR 3 -->
+          <div class="group bg-surface-container-lowest p-4 rounded-xl shadow-[0_4px_12px_rgba(9,29,46,0.03)] hover:shadow-[0_20px_40px_rgba(9,29,46,0.08)] transition-all duration-500">
+            <div class="relative h-80 w-full mb-6 overflow-hidden rounded-lg bg-surface flex items-center justify-center">
+              <img
+                alt="Amazfit GTR 3"
+                class="w-3/4 h-3/4 object-contain mx-auto my-auto group-hover:scale-110 transition-transform duration-700"
+                src="https://m.media-amazon.com/images/I/6146Gw+qHgL._AC_UF1000,1000_QL80_.jpg"
+              >
+              <div class="absolute top-4 right-4 bg-primary-fixed px-3 py-1 rounded-full text-[0.7rem] font-bold text-on-primary-fixed uppercase tracking-tighter">
+                Em estoque
+              </div>
+            </div>
+            <div class="px-2">
+              <h3 class="font-headline text-xl font-bold text-on-surface mb-1">Amazfit GTR 3</h3>
+              <p class="text-on-surface-variant text-sm mb-4">Smartwatch com tela AMOLED 1.39", GPS, monitor cardíaco e bateria de até 21 dias.</p>
+              <div class="flex items-center justify-between mt-auto">
+                <span class="text-2xl font-black text-on-surface tracking-tighter">R$ 450,00</span>
+                <a class="flex items-center gap-2 px-4 py-3 bg-secondary text-on-secondary rounded-xl font-bold text-sm hover:opacity-90 transition-opacity" href="https://wa.me/5541995072255?text=Ol%C3%A1%2C%20vim%20pelo%20Bazar%20do%20Pulga%20e%20estou%20interessado%20no%20seu%20produto%20Amazfit%20GTR%203.">
+                  <span class="material-symbols-outlined text-[1.2rem]">chat_bubble</span>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2 - MSI A520M-A Pro -->
+          <div class="group bg-surface-container-lowest p-4 rounded-xl shadow-[0_4px_12px_rgba(9,29,46,0.03)] hover:shadow-[0_20px_40px_rgba(9,29,46,0.08)] transition-all duration-500">
+            <div class="relative h-80 w-full mb-6 overflow-hidden rounded-lg bg-surface">
+              <img
+                alt="MSI A520M-A Pro"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://storage-asset.msi.com/global/picture/product/product_10_20200818095729_5f3b3589ae480.webp"
+              >
+              <div class="absolute top-4 right-4 bg-primary-fixed px-3 py-1 rounded-full text-[0.7rem] font-bold text-on-primary-fixed uppercase tracking-tighter">
+                Em estoque
+              </div>
+            </div>
+            <div class="px-2">
+              <h3 class="font-headline text-xl font-bold text-on-surface mb-1">MSI A520M-A Pro</h3>
+              <p class="text-on-surface-variant text-sm mb-4">Placa-mãe Micro-ATX, socket AM4, DDR4, M.2, USB 3.2 Gen 1, HDMI/DVI.</p>
+              <div class="flex items-center justify-between mt-auto">
+                <span class="text-2xl font-black text-on-surface tracking-tighter">R$ 300,00</span>
+                <a class="flex items-center gap-2 px-4 py-3 bg-secondary text-on-secondary rounded-xl font-bold text-sm hover:opacity-90 transition-opacity" href="https://wa.me/5541995072255?text=Ol%C3%A1%2C%20vim%20pelo%20Bazar%20do%20Pulga%20e%20estou%20interessado%20no%20seu%20produto%20MSI%20A520M-A%20Pro.">
+                  <span class="material-symbols-outlined text-[1.2rem]">chat_bubble</span>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3 - Rise Mode Vision 01 Black -->
+          <div class="group bg-surface-container-lowest p-4 rounded-xl shadow-[0_4px_12px_rgba(9,29,46,0.03)] hover:shadow-[0_20px_40px_rgba(9,29,46,0.08)] transition-all duration-500">
+            <div class="relative h-80 w-full mb-6 overflow-hidden rounded-lg bg-surface">
+              <img
+                alt="Rise Mode Vision 01 Black"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.kabum.com.br/produtos/fotos/516955/mesa-controladora-rise-mode-streaming-vision-01-15-teclas-lcd-usb-preto-rm-mc-01-b_1718625034_gg.jpg"
+              >
+              <div class="absolute top-4 right-4 bg-primary-fixed px-3 py-1 rounded-full text-[0.7rem] font-bold text-on-primary-fixed uppercase tracking-tighter">
+                Em estoque
+              </div>
+            </div>
+            <div class="px-2">
+              <h3 class="font-headline text-xl font-bold text-on-surface mb-1">Rise Mode Vision 01 Black</h3>
+              <p class="text-on-surface-variant text-sm mb-4">Mesa controladora com 15 teclas LCD personalizáveis, conexão USB-C, ideal para streaming e produtividade.</p>
+              <div class="flex items-center justify-between mt-auto">
+                <span class="text-2xl font-black text-on-surface tracking-tighter">R$ 300,00</span>
+                <a class="flex items-center gap-2 px-4 py-3 bg-secondary text-on-secondary rounded-xl font-bold text-sm hover:opacity-90 transition-opacity" href="https://wa.me/5541995072255?text=Ol%C3%A1%2C%20vim%20pelo%20Bazar%20do%20Pulga%20e%20estou%20interessado%20no%20seu%20produto%20Rise%20Mode%20Vision%2001%20Black.">
+                  <span class="material-symbols-outlined text-[1.2rem]">chat_bubble</span>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#edf4ff] dark:bg-zinc-800 w-full py-12 px-6">
+    <div class="flex justify-center max-w-7xl mx-auto">
+      <div class="flex flex-col items-center gap-8 text-center">
+        <span class="text-lg font-bold text-[#091d2e] dark:text-zinc-100 font-headline">Bazar do Pulga</span>
+        <nav class="flex gap-8">
+          <a class="text-[#091d2e]/70 dark:text-zinc-400 font-['Comfortaa'] text-sm tracking-wide hover:text-[#944a00] transition-all" href="https://wa.me/5541995072255?text=Ol%C3%A1%2C%20vim%20pelo%20Bazar%20do%20Pulga%20e%20estou%20interessado%20nos%20seus%20produtos.">
+            Contato
+          </a>
+        </nav>
+        <div class="pt-8 border-t border-outline-variant/10 w-full max-w-xs">
+          <p class="text-[#091d2e]/70 dark:text-zinc-400 font-['Comfortaa'] text-sm tracking-wide">
+            &copy; 2026 Bazar do Pulga. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
