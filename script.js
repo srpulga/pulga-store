@@ -47,7 +47,7 @@ tailwind.config = {
         "secondary-fixed-dim": "#ffb783",
         "on-primary-fixed-variant": "#364e00",
         "inverse-primary": "#add461",
-        "surface": "#f7f9ff",
+        "surface": "#ffffff",
         "on-primary-container": "#faffe7",
         "error-container": "#ffdad6",
       },
